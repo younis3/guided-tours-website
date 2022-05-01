@@ -1,0 +1,59 @@
+
+#cssmenu {
+  background: burlywood;
+  width: auto;
+  
+}
+#cssmenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  text-align: right;
+
+}
+.left{
+    display: block;
+    float: left;
+} 
+
+#cssmenu ul li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  text-align: right
+}
+
+#cssmenu ul li :hover{
+    background-color: darkkhaki;
+}
+#cssmenu.align-right ul li {
+  float: left;
+}
+#cssmenu.align-center ul {
+  text-align: center;
+}
+#cssmenu ul li a {
+  color: darkred;
+  text-decoration: none;
+  display: block;
+  padding: 15px 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  position: relative;
+
+}
+#cssmenu ul li a:hover {
+  color: white;
+}
+
+
+
+.admin{
+    text-transform: uppercase;
+    color:whitesmoke;
+}
+
+
